@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    height: 20vh;
+}
+
+.logo {
+    width: 200px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    font-size: 2em;
+    gap: 2em;
+    font-family: 'Lilita One', cursive;
+}
+
+.item-li {
+    cursor: pointer;
+}
+
+.item-li:hover{
+    background-color: red;
+    color: black;
+    transition: 0.2s;
+}
+
+.item-li:active {
+    background-color: white;
+    color: red;
+}
+
+.entrance-image {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./imgs/mainimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.info {
+    font-size: 10vh;
+    color: white;
+    margin-left: 5rem;
+}
+
+.main-container { 
+    background-color: darkred;
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.main-container h1 {
+    text-align: center;
+    font-size: 5em;
+    color: white;
+    font-style: ;
+    font-family: 'Oswald', sans-serif;
+}
+
+.main-characters {
+    width: 100%;
+}
+
+.card-container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 0.5em;
+    color: #dededf;
+}
+
+.ca-img {
+    padding-top: 2rem;
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.ca-img-sid {
+    max-width: 289px;
+    padding-top: 2rem;
+}
+
+.card {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.card h3 {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 1rem;
+}
+
+.card p {
+    margin-top: 1rem;
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
