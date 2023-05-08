@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,13 +12,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital,wght@1,700&family=Karla:wght@300;400;600&family=Lilita+One&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/22e65bf652.js" crossorigin="anonymous"></script>
     </head>
-
     <body>
         <header>
             <img class="logo" src="./imgs/logo.jpg" alt="">
             <ul class="nav-list">
-                <li class="item-li">Apresentação</li>
-                <li class="item-li">História</li>
+                <a href="./pages/page1.html" target="_self"><li class="item-li">Apresentação</li></a>
+                <a href="./pages/page2.html" target="_self"><li class="item-li">História</li></a>
                 <li class="item-li">Killers (Spoiler)</li>
                 <li class="item-li">O que vem na proxima?</li>
             </ul>
@@ -31,8 +29,6 @@
                     </h1>
                 </div>
             </div>
-
-
             <div class="main-container">
                 <div class="main-characters">
                     <h1>Personagens principais</h1>
@@ -58,7 +54,7 @@
                             </figcaption>
                         </figure>
                         <figure class="card">
-                            <h2 class="hiden">Dizem que morreu mas tenho duvidas</h2>
+                            <h2 class="hiden">Viva</h2>
                             <img src="./imgs/gale.png" class="ca-img" alt="dewey">
                             <figcaption>
                                 <h3>Gale Weathers</h3>
@@ -72,19 +68,18 @@
                     </div>
                 </div>
             </div>
-
             <div class="form-container">
-                <h1>Bem vindo ao formulário</h1>
+                <h1>Cadastre-se</h1>
                 <h4>Terias coragem de mandar suas informações para gente?</h4>
                 <form class="form-div">
-                    <label for="name">Nome</label>
+                    <label for="name">Nome e sobrenome:</label>
                     <input type="text" name="name" id="name">
-                    <label for="horror">Filme de terror favorito:</label>
-                    <input type="text" name="horror" id="horror">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
                     <label for="date">Data de nascimento</label>
                     <input type="date" name="date" id="date">
-                    <label for="number">Numero de telefone <span style="color: white; font-weight: bold; font-style: oblique;">*altamente obrigatório</span></label>
-                    <input type="number" name="number" required id="number">
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" required id="senha">
                     <label for="favorite">Personagem favorito:</label>
                     <select value="favorite">
                         <option>Selecione</option>
@@ -109,7 +104,6 @@
                 </form>
             </div>
         </main>
-
         <footer>
           <div class="nav-list-footer">
             <div class="sticky">
@@ -117,8 +111,8 @@
                 <p>Navegue!</p>
             </div>
             <nav>
-                <p>Apresentação</p>
-                <p>História</p>
+                <a href="./pages/page1.html" target="_self"><p>Apresentação</p></a>
+                <a href="./pages/page2.html" target="_self"><p>História</p></a>
                 <p>Killers (Spoiler)</p>
                 <p>O que vem na próxima?</p>
             </nav>
@@ -145,7 +139,6 @@
                 <p>lopesalice4745@gmail.com</p>
             </div>
           </div>
-
           <h3 class="rights">Alice Lopes. Todos os direitos reservados ©</h3>
         </footer>
     </body>
