@@ -10,8 +10,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffff;
     width: 100%;
     height: 200px;
     z-index: 1000;
@@ -39,13 +39,14 @@ header {
 }
 
 .item-li:hover{
-    background-color: red;
-    color: black;
+    background-color: #800809;
+    color: #000000;
     transition: 0.2s;
+    scale: 1.1;
 }
 
 .item-li:active {
-    background-color: white;
+    background-color: #ffff;
     color: red;
 }
 
@@ -64,12 +65,12 @@ header {
 
 .info {
     font-size: 10vh;
-    color: white;
+    color: #ffff;
     margin-left: 5rem;
 }
 
 .main-container { 
-    background-color: darkred;
+    background-color: #510404;
     width: 100%;
     padding-top: 2rem;
 }
@@ -107,7 +108,7 @@ header {
 }
 
 .card {
-    background-color: black;
+    background-color: #000000;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -158,20 +159,20 @@ header {
     flex-direction: column;
     padding-top: 2rem;
     gap: 1rem;
-    background-color: #320202;
+    background-color: #270303;
     height: 100%;
 }
 
 .form-container h1 {
     text-align: center;
     font-size: 5em;
-    color: white;
+    color: #ffff;
     font-family: 'Oswald', sans-serif;
 }
 
 .form-container h4 {
     font-size: 2em;
-    color: white;
+    color: #ffff;
 }
 
 .form-div {
@@ -179,7 +180,7 @@ header {
     color: white;
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 85%;
     font-size: 2em;
 }
 
@@ -208,7 +209,7 @@ header {
     margin-top: 1em;
     padding: 0.5em;
     font-weight: bold;
-    background-color: black;
+    background-color: #0000;
 }
 
 .radio-button {
@@ -216,4 +217,76 @@ header {
     width: 25px;
     height: 30px;
     vertical-align: middle;
+}
+
+.form-container {
+    padding-bottom: 2rem;
+}
+
+footer {
+    background-color: #381105;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    color: #ffff;
+    font-size: 1.2em;
+    font-family: 'Karla', sans-serif;
+}
+
+.sticky {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.nav-list-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.nav-list-footer nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.nav-list-footer nav p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media-container { 
+    display: flex;
+    align-items: center;
+    padding-top: 1em;
+    gap: 3rem;
+    cursor: pointer;
+}
+
+.social-media-container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact {
+    display: flex;
+    gap: 1rem;
+}
+
+.rights {
+    align-self: center;
+    color: #ffffff57;
+    font-weight: 100;
 }
